@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    height: 4000px;
+}
+/* First Task First Section */
+.one{
+    background: url('https://melrobbins.com/wp-content/uploads/2018/03/Layer-1.jpg') repeat;
+    background-size: cover;
+    height: 1519.2px
+}
+h1{
+    font-size: 74px;
+    margin-top: 0;
+    position: absolute;
+    top: 295px;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    width: 100%;
+    text-align: center;
+}
+.cont{
+    position: absolute;
+    top: 500px;
+    padding-top: 60px;
+}
+.cont .main{
+    background-color: #FFF;
+    width: calc(50% - 45px);
+    padding: 85px;
+    float: right;
+    margin-right: 45px;
+}
+h3{
+    font-size: 40px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+.text{
+    color: #555454;
+    font-size: 30px;
+    line-height: 1.4;
+    letter-spacing: 1px;
+}
+p{
+    color: #817f7f;
+    font-size: 30px;
+    line-height: 1.4;
+    letter-spacing: 1px; 
+    font-size: 19px;
+    margin: 45px 0px;
+}
+
+/*First Task Second Section */
+.two{
+    height: 759.6px;
+    background-color: #FFF;
+    position: relative;
+}
+.two .left{
+    width: 50%;
+    float: left;
+    height: 759.6px;
+}
+.two .right{
+    width: 50%;
+    float: right;
+    min-height: 759.6px;
+    padding: 33px 93px;
+}
+.left .overlay{
+    height: 759.6px;
+    width: 100%;
+    background-color: black;
+    transition: all .4s ease-in-out;
+}
+.two .active .overlay{
+    width: 0%;
+}
+.two .active h1{
+    color: black;
+}
+.left h1{
+    top: 250px;
+    font-size: 67px;
+    font-family: 'Archivo Narrow', sans-serif;
+    width: 50%;
+    color: #FFF;
+    text-align: right;
+    padding-right: 30px;
+}
+.two .right p{
+    font-size: 35px;
+    letter-spacing: 2px;
+    width: 92%;
+    color: rgb(94, 92, 92);
+}
+
+/*First Task Third Section */
+.three{
+    height: 1126px;
+    position: relative;
+}
+.three .img{
+    background: url('https://melrobbins.com/wp-content/uploads/2018/03/IMG_0115-3.jpg') no-repeat;
+    height: 1172px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    float: left;
+}
+.three .fixed{
+    position: fixed;
+}
+.three .stop{
+    position: relative;
+}
+.three .main{
+    width: 48%;
+    float: right;
+    padding: 75px;
+    position: absolute;
+    left: 776px;
+    height: 1126px;
+    padding-bottom: 0px;
+}
+.three .text{
+    height: 1028.21px;
+}
+.three .main .text span{
+    font-weight: bolder;
+    font-size: 228px;
+    text-align: center;
+    display: block;
+    font-family: 'Alfa Slab One', cursive;
+}
+.three .main .text h1{
+    font-family: 'Archivo Narrow', sans-serif;
+    text-align: center;
+    font-size: 66px;
+    margin: 95px 0px;
+    width: 650px;
+}
+.three .main .text p{
+    line-height: 1.6;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-top: 210px;
+}
+.three .main .text button{
+    position: absolute;
+    right: 305px;
+    background: nonw;
+    background: none;
+    padding: 17px;
+    border: 1px solid #3c3c5f;
+    background-color: #555569;
+    color: #FFF;
+    border-radius: 40px;
+    width: 180px;
+    font-size: 13px;
+}
+
